@@ -1,0 +1,30 @@
+# Testing environment and test scripts
+venv_test/
+test_clipboard_manager.py
+test_requirements.txt
+TESTING_INSTRUCTIONS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# macOS
+.DS_Store
+
+# Testing
+.pytest_cache/
+
+# Build artifacts
+mac_app_build/build/
+mac_app_build/dist/
+mac_app_build/
